@@ -1,0 +1,45 @@
+package Interfaz;
+
+import java.util.ArrayList;
+
+import Datos.Cafe;
+import Datos.Encargado;
+
+
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		Encargado encargado1 = new Encargado(001,"Jose");
+		
+		
+		 final double latte = 1.50;
+		 final double flat_white = 2.50;
+		 final double lagrima = 1.30;
+		 final double expresso = 1.00;
+		
+		
+	
+
+		ArrayList<Cafe> ventas = new ArrayList<Cafe>();
+
+	
+		ventas.add(new Cafe("latte"));
+		ventas.add(new Cafe("expresso", expresso));
+		ventas.add(new Cafe("latte", latte));
+		ventas.add(new Cafe("lagrima", lagrima));
+		ventas.add(new Cafe("expresso",expresso));
+		ventas.add(new Cafe("flat_white", flat_white));
+
+	
+		
+		for (int i = 0; i < ventas.size(); i++) {
+		encargado1.cargarVentas(ventas.get(i));
+		}
+		
+		
+	}
+
+}

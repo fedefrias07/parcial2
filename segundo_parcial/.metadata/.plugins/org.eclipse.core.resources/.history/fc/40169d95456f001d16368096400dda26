@@ -1,0 +1,17 @@
+package Datos;
+
+
+
+public class Venta {
+	private int id_venta;
+	private Cafe cafe;
+	private int cantidad;
+	private boolean tarjeta_socio;
+
+	
+
+	
+	
+
+
+}

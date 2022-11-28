@@ -1,0 +1,24 @@
+package Datos;
+
+public class Venta {
+	
+	
+	private int cantidad;
+
+	public Venta(int cantidad) {
+		super();
+		this.cantidad = cantidad;
+	}
+
+	public int getCantidad() {
+		return cantidad;
+	}
+
+	public void setCantidad(int cantidad) {
+		this.cantidad = cantidad;
+	}
+	
+	
+	
+	
+}

@@ -1,0 +1,49 @@
+package Datos;
+
+public class Venta {
+	private static int id_venta;
+	private Cafe cafe;
+	private int cantidad;
+	private boolean tarjeta_socio;
+
+	public Venta(int id_venta, Cafe cafe, int cantidad, boolean tarjeta_socio) {
+		super();
+		this.id_venta = id_venta;
+		this.cafe = cafe;
+		this.cantidad = cantidad;
+		this.tarjeta_socio = tarjeta_socio;
+	}
+
+	public int getId_venta() {
+		return id_venta;
+	}
+
+	public void setId_venta(int id_venta) {
+		this.id_venta = id_venta;
+	}
+
+	public Cafe getCafe() {
+		return cafe;
+	}
+
+	public void setCafe(Cafe cafe) {
+		this.cafe = cafe;
+	}
+
+	public int getCantidad() {
+		return cantidad;
+	}
+
+	public void setCantidad(int cantidad) {
+		this.cantidad = cantidad;
+	}
+
+	public boolean isTarjeta_socio() {
+		return tarjeta_socio;
+	}
+
+	public void setTarjeta_socio(boolean tarjeta_socio) {
+		this.tarjeta_socio = tarjeta_socio;
+	}
+
+}

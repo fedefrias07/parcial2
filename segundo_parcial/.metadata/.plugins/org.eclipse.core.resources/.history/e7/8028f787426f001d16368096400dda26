@@ -1,0 +1,15 @@
+package Datos;
+
+import java.util.ArrayList;
+
+public class Venta {
+	private int id_venta;	
+	private String cafe;
+	private int cantidad;
+
+
+	
+
+	// cliente compone una venta
+
+}

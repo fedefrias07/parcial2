@@ -1,0 +1,50 @@
+package Datos;
+
+public class Cafe {
+
+	private String tipo_cafe;
+	private final double latte = 1.50; 
+	private final double flat_white = 2.50;
+	private final double lagrima = 1.30;
+	private final double expresso = 1.00;
+	
+	public Cafe(String tipo_cafe) {
+		super();
+		this.tipo_cafe = tipo_cafe;
+	}
+
+	public String getTipo_cafe() {
+		return tipo_cafe;
+	}
+
+	public void setTipo_cafe(String tipo_cafe) {
+		this.tipo_cafe = tipo_cafe;
+	}
+
+	public double getLatte() {
+		return latte;
+	}
+
+	public double getFlat_white() {
+		return flat_white;
+	}
+
+	public double getLagrima() {
+		return lagrima;
+	}
+
+	public double getExpresso() {
+		return expresso;
+	}
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+}

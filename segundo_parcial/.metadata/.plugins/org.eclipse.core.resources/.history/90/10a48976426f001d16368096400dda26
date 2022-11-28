@@ -1,0 +1,36 @@
+package Datos;
+
+import java.util.ArrayList;
+
+public class Venta {
+
+	private int producto;
+	private ArrayList<String> cantidad;
+
+	public Venta(int venta, ArrayList<String> productos) {
+		super();
+		this.producto = venta;
+		this.cantidad = productos;
+	}
+
+	public int getProducto() {
+		return producto;
+	}
+
+	public void setProducto(int producto) {
+		this.producto = producto;
+	}
+
+	public ArrayList<String> getCantidad() {
+		return cantidad;
+	}
+
+	public void setCantidad(ArrayList<String> cantidad) {
+		this.cantidad = cantidad;
+	}
+
+	
+
+	// cliente compone una venta
+
+}
