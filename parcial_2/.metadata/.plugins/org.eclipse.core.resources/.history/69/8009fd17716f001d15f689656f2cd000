@@ -1,0 +1,11 @@
+package Datos;
+
+public class Cafe {
+
+	private String tipo_cafe;
+	
+	
+	
+	
+
+}

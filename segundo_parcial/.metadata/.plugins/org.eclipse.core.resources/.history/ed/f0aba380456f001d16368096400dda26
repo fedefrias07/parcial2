@@ -1,9 +1,0 @@
-package Datos;
-
-public class Cliente {
-
-	private int id_cliente;
-	private String nombre;
-	
-	
-}
